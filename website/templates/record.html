@@ -27,5 +27,8 @@
   onclick="return confirm('Are you sure you want to delete this record?');"
   >Delete</a
 >
+<a href=" {% url 'update_record' customer_record.id %}" class="btn btn-primary"
+  >Update Record</a
+>
 
 {% endblock %}
